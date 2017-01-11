@@ -1,0 +1,22 @@
+.ui.menu a{
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: -5px;
+  font-size: 16px;
+  color:black;
+
+}
+
+.ui.menu a:hover{
+  color:blue;
+}
+
+#header {
+  z-index: 10;
+  background: white;
+}
+
+#jumbo{
+  z-index: 1;
+  margin-top: 80px;
+}
