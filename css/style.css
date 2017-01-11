@@ -1,14 +1,17 @@
 .ui.menu a{
   font-weight: bold;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-right: -5px;
   font-size: 16px;
   color:black;
-
+  /*background: green;*/
+  padding-bottom: 12px;
 }
 
 .ui.menu a:hover{
   color:blue;
+  /*margin-bottom: 10px;*/
+  border-bottom: 5px solid black;
 }
 
 #header {
@@ -19,4 +22,16 @@
 #jumbo{
   z-index: 1;
   margin-top: 80px;
+}
+ .cards{
+   padding: 60px;
+}
+
+.ui.container{
+  /*background: green;*/
+}
+h2{
+  position: relative;
+  top: 25px ;
+  text-align: center;
 }
