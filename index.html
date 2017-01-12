@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="D:\workspace\semantic\dist\semantic.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js' charset="utf-8"></script>
     <script src="D:\workspace\semantic\dist\semantic.min.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
 </head>
@@ -166,20 +168,18 @@
                     <div class="field">
                         <label>Password</label>
                         <input type="password" name="password" placeholder="password" required>
+                    </div><br><br>
+                    <div class="ui black cancel button">
+                        cancel
                     </div>
-
+                    <div onclick="validateSignIn()" class="ui positive right labeled icon submit button">
+                        Sign in
+                        <i class="checkmark icon"></i>
+                    </div><br><br>
+                    <a href="register.html">Not registered..!!Sign up here</a>
+                    <div class="ui error message"></div><br><br>
                 </form>
                 <img id="sign-in-image" src="http://images.buycostumes.com/mgen/merchandiser/harry-potter-dobby-mask-child-bc-33044.jpg?zm=1600,1600,1,0,0" style="width:300px;height:300px;margin-left: 120px" alt="">
-            </div>
-            <div class="actions">
-                <a href="register.html">Not registered..!!Sign up here</a>
-                <div class="ui black cancel button">
-                    cancel
-                </div>
-                <div class="ui positive right labeled icon submit button">
-                    Sign in
-                    <i class="checkmark icon"></i>
-                </div>
             </div>
         </div>
 

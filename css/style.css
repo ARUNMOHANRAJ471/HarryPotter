@@ -2,22 +2,22 @@ body {
     background: url(https://images.freecreatives.com/wp-content/uploads/2015/04/ivory-off-white-paper-texture.jpg) !important;
 }
 
-#logo{
-  width:150px;
-  height:50px;
+#logo {
+    width: 150px;
+    height: 50px;
 }
 
-#mobilelogo{
-  width:150px;
-  height:50px;
-  margin-right: 27px;
+#mobilelogo {
+    width: 150px;
+    height: 50px;
+    margin-right: 27px;
 }
 
-.ui.vertical.menu{
-	margin-top: 78px !important;
-	width: 100%;
-  margin-left: -12px;
-	display: none;
+.ui.vertical.menu {
+    margin-top: 78px !important;
+    width: 100%;
+    margin-left: -12px;
+    display: none;
 }
 
 .ui.menu a {
@@ -43,15 +43,15 @@ body {
     z-index: 1;
     margin-top: 45px;
     margin-bottom: -56px;
-    width:120%;
+    width: 120%;
 }
 
 .cards {
     padding: 60px;
 }
 
-.ui.container{
-  font-family:  'Arima Madurai', cursive !important;
+.ui.container {
+    font-family: 'Arima Madurai', cursive !important;
 }
 
 h2 {
@@ -129,6 +129,6 @@ iframe {
     background: pink;
 }
 
-h1,h2,h3{
-  font-family: lobster !important;
+h1, h2, h3 {
+    font-family: lobster !important;
 }

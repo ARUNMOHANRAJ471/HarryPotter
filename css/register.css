@@ -1,5 +1,5 @@
 body {
-    background: url(http://burrow.hogwartsishere.com/storage/img/sign-up-blue.jpg) fixed;
+    background: url(http://burrow.hogwartsishere.com/storage/img/sign-up-blue.jpg) fixed !important;
     background-size: cover;
     padding: 0;
     margin: 0;
