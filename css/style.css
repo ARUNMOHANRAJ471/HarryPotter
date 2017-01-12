@@ -25,7 +25,7 @@ body {
 
 #jumbo {
     z-index: 1;
-    margin-top: 72px;
+    margin-top: 45px;
     margin-bottom: -56px;
 }
 
@@ -33,8 +33,8 @@ body {
     padding: 60px;
 }
 
-.ui.container {
-    /*background: green;*/
+.ui.container{
+  font-family:  'Arima Madurai', cursive !important;
 }
 
 h2 {
@@ -113,7 +113,12 @@ iframe {
 }
 
 .ui.vertical.menu{
-	margin-top: -15px !important;
+	margin-top: 78px !important;
 	width: 100%;
+  margin-left: -12px;
 	display: none;
+}
+
+h1,h2,h3{
+  font-family: lobster !important;
 }

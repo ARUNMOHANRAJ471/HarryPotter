@@ -20,10 +20,6 @@ body {
     margin: 15px auto 30px auto;
 }
 
-.remember-me {
-    text-align: left;
-}
-
-.ui.checkbox label {
-    color: #ddd;
+#terms {
+    color: lightgrey;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HP fan page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lemonada|Lobster|Pacifico|Hind+Madurai|Arima+Madurai" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,18 +18,47 @@
 
 <body>
     <header class="ui grid container">
-        <div class="ui menu secondary fixed top stackable" id="header">
-            <div class="item">
-                <img style="width:150px;height:50px" src="http://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951" alt="">
+        <div class="computer tablet only row">
+            <div class="ui secondary fixed menu" id="header">
+                <div class="item">
+                    <img style="width:150px;height:50px" src="http://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951" alt="">
+                </div>
+                <div class="item"><a href="#">Home</a></div>
+                <div class="item"><a href="#">Site</a></div>
+                <div class="item"><a href="#">Speciality Sites</a></div>
+                <div class="item"><a href="#">J.K Rowling</a></div>
+                <div class="item"><a href="#">Harry Potter</a></div>
+                <div class="item"><a href="#">Fantastic Beasts</a></div>
+                <div class="item"><a href="#">The Daily Prophet</a></div>
+                <div class="item right" id='signin'><a href="#" onclick="showModal()"><i class="sign in icon"></i>Sign in</a></div>
+
             </div>
-            <div class="item"><a href="#">Home</a></div>
-            <div class="item"><a href="#">Site</a></div>
-            <div class="item"><a href="#">Speciality Sites</a></div>
-            <div class="item"><a href="#">J.K Rowling</a></div>
-            <div class="item"><a href="#">Harry Potter</a></div>
-            <div class="item"><a href="#">Fantastic Beasts</a></div>
-            <div class="item"><a href="#">The Daily Prophet</a></div>
-            <div class="item right" id='signin'><a href="#" onclick="showModal()"><i class="sign in icon"></i>Sign in</a></div>
+        </div>
+        <div class="mobile only row">
+            <div class="ui fixed menu">
+                <div class="item">
+                    <img style="width:150px;height:50px" src="http://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951" alt="">
+                </div>
+                <div class="right menu open">
+                    <a href="" class="item">
+                        <i class="content icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div style="display:none" class="ui vertical navbar menu">
+                <div class="item"><a href="#">Home</a></div>
+                <div class="item"><a href="#">Site</a></div>
+                <div class="item"><a href="#">Speciality Sites</a></div>
+                <div class="item"><a href="#">J.K Rowling</a></div>
+                <div class="item"><a href="#">Harry Potter</a></div>
+                <div class="item"><a href="#">Fantastic Beasts</a></div>
+                <div class="item"><a href="#">The Daily Prophet</a></div>
+                <div class="item right" id='signin'><a href="#" onclick="showModal()"><i class="sign in icon"></i>Sign in</a></div>
+
+            </div>
+        </div>
+
+        </div>
         </div>
     </header>
 
@@ -126,11 +156,11 @@
                 <form class="ui form" id='sign_in_form'>
                     <div class="field">
                         <label>Email</label>
-                        <input type="text" name="email" placeholder="email">
+                        <input type="text" name="email" placeholder="email" required>
                     </div>
                     <div class="field">
                         <label>Password</label>
-                        <input type="password" name="password" placeholder="password">
+                        <input type="password" name="password" placeholder="password" required>
                     </div>
 
                 </form>
