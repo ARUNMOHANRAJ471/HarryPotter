@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HP fan page</title>
+    <link rel="icon" href="img/hpicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lemonada|Lobster|Pacifico|Hind+Madurai|Arima+Madurai" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/text.css">
@@ -18,10 +19,10 @@
 
 <body>
     <header class="ui grid container">
-        <div class="computer tablet only row">
+        <div class="computer tablet only">
             <div class="ui secondary fixed menu" id="header">
                 <div class="item">
-                    <img style="width:150px;height:50px" src="http://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951" alt="">
+                    <img id='logo' src="http://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951" alt="">
                 </div>
                 <div class="item"><a href="#">Home</a></div>
                 <div class="item"><a href="#">Site</a></div>
@@ -30,14 +31,19 @@
                 <div class="item"><a href="#">Harry Potter</a></div>
                 <div class="item"><a href="#">Fantastic Beasts</a></div>
                 <div class="item"><a href="#">The Daily Prophet</a></div>
-                <div class="item right" id='signin'><a href="#" onclick="showModal()"><i class="sign in icon"></i>Sign in</a></div>
-
+                <div class="item right" id='signin'>
+                  <a href="#" onclick="showModal()">
+                    <i class="sign in icon"></i>
+                    Sign in
+                  </a>
+                </div>
             </div>
         </div>
+
         <div class="mobile only row">
             <div class="ui fixed menu">
                 <div class="item">
-                    <img style="width:150px;height:50px" src="http://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951" alt="">
+                    <img id='mobilelogo' src="http://vignette3.wikia.nocookie.net/logopedia/images/9/9c/HarryPotter.png/revision/latest?cb=20160624203951" alt="">
                 </div>
                 <div class="right menu open">
                     <a href="" class="item">
@@ -65,14 +71,14 @@
     <!--code for Jumbotron below-->
 
     <div class="ui grid">
-        <div class="column padding-reset">
-            <img id="jumbo" style="width:120%" src="img/jumbo.jpg" alt="">
+        <div class="column">
+            <img id="jumbo" src="img/jumbo.jpg" alt="">
         </div>
     </div>
 
     <!--code for cards below-->
     <h2>Dumbledore's Army</h2>
-    <div class="ui three container cards stackable">
+    <div class="ui container three cards stackable">
 
         <div class="card">
             <div class="image">
@@ -143,7 +149,6 @@
             </span>
             </div>
         </div>
-        <!-- </div> -->
 
         <!-- code for modal sign in below -->
 
@@ -328,7 +333,6 @@
             <br><br>
         </footer>
     </div>
-
 
 </body>
 
