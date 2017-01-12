@@ -1,37 +1,119 @@
-.ui.menu a{
-  font-weight: bold;
-  margin-left: 20px;
-  margin-right: -5px;
-  font-size: 16px;
-  color:black;
-  /*background: green;*/
-  padding-bottom: 12px;
+body {
+    background: url(https://images.freecreatives.com/wp-content/uploads/2015/04/ivory-off-white-paper-texture.jpg) !important;
 }
 
-.ui.menu a:hover{
-  color:blue;
-  /*margin-bottom: 10px;*/
-  border-bottom: 5px solid black;
+.ui.menu a {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: -5px;
+    font-size: 16px;
+    color: black;
+    /*background: green;*/
+    padding-bottom: 12px;
+}
+
+.ui.menu a:hover {
+    color: blue;
+    /*margin-bottom: 10px;*/
+    border-bottom: 5px solid black;
 }
 
 #header {
-  z-index: 10;
-  background: white;
+    z-index: 10;
+    background: white;
 }
 
-#jumbo{
-  z-index: 1;
-  margin-top: 80px;
-}
- .cards{
-   padding: 60px;
+#jumbo {
+    z-index: 1;
+    margin-top: 72px;
+    margin-bottom: -56px;
 }
 
-.ui.container{
-  /*background: green;*/
+.cards {
+    padding: 60px;
 }
-h2{
-  position: relative;
-  top: 25px ;
-  text-align: center;
+
+.ui.container {
+    /*background: green;*/
+}
+
+h2 {
+    position: relative;
+    top: 44px;
+    text-align: center;
+}
+
+.castle {
+    margin-top: 20px;
+}
+
+form input {
+    width: 400px !important;
+}
+
+#sign_in_form {
+    float: left;
+}
+
+#sign_in_image {
+    float: right;
+    margin-left: 40px !important;
+}
+
+footer {
+    text-align: center;
+    background: #333333;
+    color: #DDDDDD;
+}
+
+footer i {
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+footer i:hover {
+    font-size: 22px;
+}
+
+#email {
+    width: 300px !important;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 6px 12px;
+    background-size: 50px 50px;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+#submit {
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/46/19/6c/46196cdaacc9add432686179849d);
+    border-radius: 8px;
+    width: 60px !important;
+    height: 30px;
+    color: white;
+}
+
+#muggle {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer textarea {
+    border-radius: 4px;
+}
+
+iframe {
+    background: pink;
+}
+
+.ui.vertical.menu{
+	margin-top: -15px !important;
+	width: 100%;
+	display: none;
 }
